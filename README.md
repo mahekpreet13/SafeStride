@@ -1,6 +1,6 @@
-# VRU Safety App
+# Safestride
 
-The **VRU Safety App** is a Flutter-based mobile application that improves safety for *Vulnerable Road Users (VRUs)* such as blind and visually impaired pedestrians. It combines real-time navigation, open data, and smart alerts to help users move more safely through city environments.
+The **Safestride App** is a Flutter-based mobile application that improves safety for *Vulnerable Road Users (Safestrides)* such as blind and visually impaired pedestrians. It combines real-time navigation, open data, and smart alerts to help users move more safely through city environments.
 
 ## Overview
 
@@ -28,7 +28,4 @@ The goal is to demonstrate how mobile technology and open data can make urban tr
 
 This project is more than a navigation app — it’s a prototype for safer mobility. It shows how technology can assist people with visual impairments and contribute to smarter, more inclusive cities.
 
-## Demo
 
-🎥 Watch the demo video:  
-https://github.com/user-attachments/assets/2d998f02-0c26-450f-9cd2-d54d858faa5f
