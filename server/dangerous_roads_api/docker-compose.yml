@@ -1,0 +1,7 @@
+services:
+  vru_api:
+    build: .
+    restart: unless-stopped
+    container_name: vru_api
+    ports:
+      - "8000:80"

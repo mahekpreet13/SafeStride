@@ -1,0 +1,27 @@
+services:
+  vru_api:
+    build: ./dangerous_roads_api
+    restart: unless-stopped
+    container_name: vru_api
+    #ports:
+    #  - "8000:80"
+
+  graphhopper:
+    build: ./graphhopper
+    restart: unless-stopped
+    container_name: graphhopper
+    #ports:
+    #  - "8989:8989"
+    #  - "8990:8990"
+    volumes:
+      - ./data:/data
+    environment:
+      - OSM_FILE=Regensburg.osm.pbf
+
+  tunnel:
+    container_name: cloudflared-tunnel
+    image: cloudflare/cloudflared
+    restart: unless-stopped
+    command: tunnel run
+    environment:
+      - TUNNEL_TOKEN=
