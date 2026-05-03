@@ -28,4 +28,5 @@ The goal is to demonstrate how mobile technology and open data can make urban tr
 
 This project is more than a navigation app — it’s a prototype for safer mobility. It shows how technology can assist people with visual impairments and contribute to smarter, more inclusive cities.
 
-
+##To run the application
+:flutter run -d chrome
